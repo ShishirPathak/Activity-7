@@ -173,7 +173,7 @@ d3.selectAll(`rect.legend-rect.${d}`)
 
 // Update dots visibility across both graphs
 d3.selectAll(`circle.${d}`)
-.style("opacity", isActive ? 0 : 1);
+.style("opacity", isActive ? 0.1 : 1);
 });
 
 // Set all circles initially visible
